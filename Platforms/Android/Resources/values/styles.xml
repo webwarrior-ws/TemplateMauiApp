@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="ImprovedTheme" parent="Maui.MainTheme">
+		<!--
+		<item name="alertDialogTheme">@style/MauiAlertDialogTheme</item>
+		-->
+		<!--
+		<item name="materialAlertDialogTheme">@style/MauiAlertDialogTheme</item>
+		<item name="dialogTheme">@style/MauiAlertDialogTheme</item>
+		-->
+		<!-- for legacy alert dialogs
+		<item name="android:alertDialogTheme">@style/MauiAlertDialogTheme</item>
+		-->
+	</style>
+
+	<style name="MauiAlertDialogTheme" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+		<item name="android:textColor">?attr/colorOnSurface</item>
+		<item name="colorPrimary">?attr/colorOnSurface</item>
+		<!-- ?attr/colorOnSurface
+		-->
+	</style>
+
+	<style name="MauiAlertDialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:colorControlNormal">@android:color/white</item>
+		<item name="android:textColorPrimary">@android:color/white</item>
+		<item name="android:textColorPrimaryInverse">@android:color/white</item>
+		<item name="colorAccent">@android:color/white</item>
+		<item name="colorPrimary">@android:color/white</item>
+	</style>
+</resources>
